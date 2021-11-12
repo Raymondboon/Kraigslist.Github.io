@@ -1,0 +1,241 @@
+.jumbotron {
+    background: rgb(121, 95, 128);
+
+    font-family: Courier New (monospace);
+    font-size: 20px;
+    text-align: center;
+    color: White;
+    min-height: 110px;
+}
+
+
+.table{
+outline-style: solid;
+outline-width: 2px;
+}
+
+#leftCol {
+ background-color: rgb(211,211,211);
+ padding: 10px;
+ border-left: 3px solid darkgrey;
+ border-right: 3px solid darkgrey;
+ position: absolute;
+ height: 85%;
+}
+#rightCol {
+    background-color: rgb(211,211,211);
+    padding: 10px;
+    border-left: 3px solid darkgrey;
+    border-right: 3px solid darkgrey;
+    position: absolute;
+    height: 85%;
+   }
+
+#navbar {
+  text-align: center;  
+}
+
+#tableColor {
+    background-color:white;  
+  }
+
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .borderHeading {
+    
+    color: rgb(121, 95, 128); 
+    border-radius: 5px;
+    background-color: lightgrey;
+    border-style:solid;
+    border-color: darkgrey;
+    padding: 2px;  
+  }
+
+  .borderHeadingAccount {
+    
+    color: rgb(121, 95, 128); 
+    border-radius: 5px;
+    background-color: lightgrey;
+    border-style:solid;
+    border-color: darkgrey;
+    padding: 2px;  
+    
+  }
+
+  .borderHeadingRegister {
+    
+    color: rgb(121, 95, 128); 
+    border-radius: 5px;
+    background-color: lightgrey;
+    border-style:solid;
+    border-color: darkgrey;
+    padding: 2px;  
+    
+  }
+
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    width: 50%;
+}
+
+
+.left {
+    float: left;
+    background:blue;
+}
+
+
+.right {
+    float: right;
+    background:Red;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .left, .right {
+        float: none;
+        width: 100%;
+        display:blocK;
+    }
+}
+.containerMessage {
+  background-color:rgb(248,248,248);
+  width: 545px;
+  height: 300px;
+  margin: auto;
+  border: 3px solid darkgrey;
+}
+
+.containerPosting{
+  background-color:rgb(248,248,248);
+  width: 545px;
+  height: 1025px;
+  margin: auto;
+  border: 3px solid darkgrey;
+}
+
+.containerAccount {
+  background-color:rgb(248,248,248);
+  width: 350px;
+  height: 325px;
+  margin: auto;
+  border: 3px solid darkgrey;
+}
+.containerRegister {
+  background-color:rgb(248,248,248);
+  width: 350px;
+  height: 325px;
+  margin: auto;
+  border: 3px solid darkgrey;
+}
+
+.msg {
+
+    left:20%;
+    top:25%;
+    width:30%;
+    background-color:white;
+    color:grey;
+}
+
+#usermsg {
+  flex: 1;
+  border-radius: 4px;
+  border: 1px solid darkgrey;
+  width: 380px;
+  ;
+}
+
+#submitmsg {
+  border: solid 1px;
+  padding: 1px;
+  border-radius: 5px;
+  background-color:rgb(191,148,228);
+}
+
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    height: 235px;
+    width: 500px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 2px;
+  
+  }
+
+  #chatboxAccount{
+    text-align: left;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #fff;
+    height: 290px;
+    width: 290px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 2px;
+  
+  }
+  #usermsgAccount {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid darkgrey;
+    width: 300px;
+    ;
+  }
+
+  #submitmsgAccount {
+    border: solid 1px;
+    padding: 1px;
+    border-radius: 5px;
+    background-color:rgb(191,148,228);
+    width: 100px;
+  }
+
+  #usermsgRegister1 {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid darkgrey;
+    width: 100px;
+    text-align: left;
+    ;
+  }
+  
+  #submitmsgRegister1 {
+    border: solid 1px;
+    padding: 1px;
+    border-radius: 5px;
+    background-color:rgb(191,148,228);
+    width: 120px;
+  }
+  a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: Red;
+    background-color: transparent;
+    text-decoration: Underline;
+  }
+  a:visited {
+    color: Purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
