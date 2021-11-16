@@ -12,6 +12,7 @@
 .table{
 outline-style: solid;
 outline-width: 2px;
+border-radius: 5px;
 }
 
 #leftCol {
@@ -113,6 +114,7 @@ span{
   width: 545px;
   height: 300px;
   margin: auto;
+  border-radius: 5px;
   border: 3px solid darkgrey;
 }
 
@@ -121,6 +123,7 @@ span{
   width: 545px;
   height: 1025px;
   margin: auto;
+  border-radius: 5px;
   border: 3px solid darkgrey;
 }
 
@@ -129,6 +132,7 @@ span{
   width: 350px;
   height: 325px;
   margin: auto;
+  border-radius: 5px;
   border: 3px solid darkgrey;
 }
 .containerRegister {
@@ -136,6 +140,7 @@ span{
   width: 350px;
   height: 325px;
   margin: auto;
+  border-radius: 5px;
   border: 3px solid darkgrey;
 }
 
