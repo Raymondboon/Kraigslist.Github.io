@@ -20,7 +20,7 @@ outline-width: 2px;
  border-left: 3px solid darkgrey;
  border-right: 3px solid darkgrey;
  position: absolute;
- height: 85%;
+ height: 170%;
 }
 #rightCol {
     background-color: rgb(211,211,211);
@@ -28,7 +28,7 @@ outline-width: 2px;
     border-left: 3px solid darkgrey;
     border-right: 3px solid darkgrey;
     position: absolute;
-    height: 85%;
+    height: 170%;
    }
 
 #navbar {
