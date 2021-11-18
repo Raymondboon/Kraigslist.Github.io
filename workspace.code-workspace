@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\Desktop\\OpenSans"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Kraigslist.github.io"
+	}
+}
