@@ -1,33 +1,44 @@
 .jumbotron {
     background: rgb(121, 95, 128);
 
-    font-family: Courier New (monospace);
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     text-align: center;
     color: White;
     min-height: 110px;
+    letter-spacing:2px;
 }
 
+#footer{
+  font-family: 'Open Sans', sans-serif; 
+  letter-spacing: 20px;
+  font-weight:normal;
+}
 
 .table{
+font-family: 'Open Sans', sans-serif;
+font-weight: bold;
 outline-style: solid;
 outline-width: 2px;
 border-radius: 5px;
 }
 
 #leftCol {
+font-family: 'Open Sans', sans-serif;
  background-color: rgb(211,211,211);
- padding: 10px;
- border-left: 3px solid darkgrey;
- border-right: 3px solid darkgrey;
+ padding: 20px;
+ border-left: 2px solid darkgrey;
+ border-right: 2px solid darkgrey;
  position: absolute;
  height: 170%;
 }
+
 #rightCol {
+  font-family: 'Open Sans', sans-serif;
     background-color: rgb(211,211,211);
     padding: 10px;
-    border-left: 3px solid darkgrey;
-    border-right: 3px solid darkgrey;
+    border-left: 2px solid darkgrey;
+    border-right: 2px solid darkgrey;
     position: absolute;
     height: 170%;
    }
@@ -42,13 +53,16 @@ border-radius: 5px;
 
 
   ul {
+    
+    font-family: 'Open Sans', sans-serif;
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
 
   .borderHeading {
-    
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(121, 95, 128); 
     border-radius: 5px;
     background-color: lightgrey;
@@ -58,7 +72,8 @@ border-radius: 5px;
   }
 
   .borderHeadingAccount {
-    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     color: rgb(121, 95, 128); 
     border-radius: 5px;
     background-color: lightgrey;
@@ -69,7 +84,8 @@ border-radius: 5px;
   }
 
   .borderHeadingRegister {
-    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     color: rgb(121, 95, 128); 
     border-radius: 5px;
     background-color: lightgrey;
@@ -79,11 +95,7 @@ border-radius: 5px;
     
   }
 
-  ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 span{
     width: 50%;
@@ -110,6 +122,7 @@ span{
     }
 }
 .containerMessage {
+  font-family: 'Open Sans', sans-serif;
   background-color:rgb(248,248,248);
   width: 545px;
   height: 300px;
@@ -119,6 +132,7 @@ span{
 }
 
 .containerPosting{
+  font-family: 'Open Sans', sans-serif;
   background-color:rgb(248,248,248);
   width: 545px;
   height: 1025px;
@@ -128,6 +142,7 @@ span{
 }
 
 .containerAccount {
+  font-family: 'Open Sans', sans-serif;
   background-color:rgb(248,248,248);
   width: 350px;
   height: 325px;
@@ -136,6 +151,7 @@ span{
   border: 3px solid darkgrey;
 }
 .containerRegister {
+  font-family: 'Open Sans', sans-serif;
   background-color:rgb(248,248,248);
   width: 350px;
   height: 325px;
@@ -145,7 +161,7 @@ span{
 }
 
 .msg {
-
+  font-family: 'Open Sans', sans-serif;
     left:20%;
     top:25%;
     width:30%;
@@ -154,6 +170,7 @@ span{
 }
 
 #usermsg {
+  font-family: 'Open Sans', sans-serif;
   flex: 1;
   border-radius: 4px;
   border: 1px solid darkgrey;
@@ -162,6 +179,7 @@ span{
 }
 
 #submitmsg {
+  font-family: 'Open Sans', sans-serif;
   border: solid 1px;
   padding: 1px;
   border-radius: 5px;
@@ -169,6 +187,7 @@ span{
 }
 
 #chatbox {
+  font-family: 'Open Sans', sans-serif;
     text-align: left;
     margin: 0 auto;
     margin-top:10px;
@@ -184,6 +203,7 @@ span{
   }
 
   #chatboxAccount{
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
     margin: 0 auto;
     margin-top:10px;
@@ -198,6 +218,7 @@ span{
   
   }
   #usermsgAccount {
+    font-family: 'Open Sans', sans-serif;
     flex: 1;
     border-radius: 4px;
     border: 1px solid darkgrey;
@@ -206,6 +227,7 @@ span{
   }
 
   #submitmsgAccount {
+    font-family: 'Open Sans', sans-serif;
     border: solid 1px;
     padding: 1px;
     border-radius: 5px;
@@ -214,6 +236,7 @@ span{
   }
 
   #usermsgRegister1 {
+    font-family: 'Open Sans', sans-serif;
     flex: 1;
     border-radius: 4px;
     border: 1px solid darkgrey;
@@ -223,6 +246,7 @@ span{
   }
   
   #submitmsgRegister1 {
+    font-family: 'Open Sans', sans-serif;
     border: solid 1px;
     padding: 1px;
     border-radius: 5px;
@@ -243,4 +267,21 @@ span{
     color: Purple;
     background-color: transparent;
     text-decoration: none;
+  }
+
+  .searchBar {
+    border-start-start-radius:4px;
+    border-end-start-radius:4px;
+    border: solid 2px;
+    border-right:none;
+    padding-right: 0;
+  }
+
+  .searchBtn {
+    border-end-end-radius: 4px;
+    border-start-end-radius: 4px;
+    background-color:rgb(191,148,228);
+    border: solid 2px;
+    
+    
   }
